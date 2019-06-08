@@ -1,0 +1,17 @@
+{
+    "name": "daniel/sanya-lending",
+    "require": {
+        "slim/slim": "3.*",
+        "twig/twig": "^2.0",
+        "slim/csrf": "^0.8.1",
+        "vlucas/phpdotenv": "^2.4",
+        "doctrine/common": "^2.9",
+        "doctrine/dbal": "^2.6",
+        "doctrine/orm": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+        }
+    }
+}
