@@ -61,14 +61,18 @@ $container['view'] = function ($container) {
     ]);
 
     $view->addExtension(new \Slim\Views\TwigExtension($container->router, $container->request->getUri()));
-    $view->addExtension(new Umpirsky\Twig\Extension\PhpFunctionExtension());
-    $view->addExtension(new Twig_Extension_Debug());
 
     return $view;
 };
 
-require __DIR__ . '/../app/_dependencies/functions.php';
-require __DIR__ . '/../app/_dependencies/services/services.php';
-require __DIR__ . '/../app/_dependencies/controllers/controllers.php';
-require __DIR__ . '/../api/_dependencies/controllers.php';
+// Please specify your Mail Server - Example: mail.example.com.
+ini_set("SMTP","daniel.pysarenko.com");
+
+// Please specify an SMTP Number 25 and 8889 are valid SMTP Ports.
+ini_set("smtp_port","25");
+
+// Please specify the return address to use
+ini_set('sendmail_from', 'daniel.pysarenko@gmail.com');
+
+require __DIR__ . '/../app/_dependencies/controllers.php';
 require __DIR__ . '/../app/_routes/routes.php';
