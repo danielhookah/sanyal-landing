@@ -25,7 +25,7 @@ class HomeController extends Controller
             return $this->getView()->render($response->withStatus(404), '404.html.twig');
         }
 
-        $translation = $this->container->em->getRepository(TranslationKeyEntity::class)
+        /*$translation = $this->container->em->getRepository(TranslationKeyEntity::class)
             ->getLanguageTranslated($lang);
         if (empty($translation)) {
             return $this->getView()->render($response->withStatus(500), '404.html.twig');
@@ -33,9 +33,9 @@ class HomeController extends Controller
 
         $data = [
             'translation' => $translation
-        ];
+        ];*/
 
-        return $this->getView()->render($response, 'pages/index.twig', $data);
+        return $this->getView()->render($response, 'pages/index.html'/*, $data*/);
 
 
         // Mailer

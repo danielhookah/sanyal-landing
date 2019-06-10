@@ -1,0 +1,84 @@
+@import "font";
+
+
+$c-lightgreen:#3dc9b3;
+$c-darkgreen:#309383;
+body{
+  @extend %font-regular;
+}
+.Cc{
+  border:1px solid red;
+}
+header.header{
+  height:50vh;
+  width: 100%;
+  background-image: url("//cdn2.editmysite.com/images/editor/theme-background/stock/City-New-York-Arial.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-color: transparent;
+  background-size: cover;
+  h1{
+    @extend %font-light;
+    color: #ffffff;
+    font-size: 5rem;
+  }
+}
+.opacity5{
+  opacity: .5;
+}
+
+
+
+.btn.custom{
+  height: 60px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2.25px;
+
+  &:not(:disabled):not(.disabled):active:focus,
+  &:not(:disabled):not(.disabled).active:focus,
+  &:focus{
+    outline: none;
+    box-shadow: none;
+  }
+  &.btn-primary{
+    background-color: $c-lightgreen;
+
+    &:hover{
+      box-shadow: 0 2px 10px 0 $c-darkgreen;
+  }
+}}
+.card.custom{
+  @extend %font-regular;
+  text-align: center;
+  border: none;
+  overflow: hidden;
+  margin-bottom: 30px;
+  font-size: 12px;	letter-spacing: 0.2px;	line-height: 18px;
+  .card-header,.card-footer{
+    background-color: unset;
+    border: none;
+  }
+  .card-header,
+  .card-body,
+  .card-footer{
+    padding: 0;
+  }
+  .card-body{
+    padding: 0 15px;
+    padding-top: 10px;
+
+  }
+  .card-footer{
+    padding: 0 15px 10px;
+  }
+
+  &.card-service{
+
+  }
+}
+

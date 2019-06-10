@@ -1,0 +1,145 @@
+/* roboto-300 - cyrillic-ext_latin-ext_cyrillic_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto Light"), local("Roboto-Light"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-300.woff2") format("woff2"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-300.woff") format("woff"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-300.ttf") format("truetype"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-300.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-regular - cyrillic-ext_latin-ext_cyrillic_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-regular.woff2") format("woff2"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-regular.woff") format("woff"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-regular.ttf") format("truetype"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-regular.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-500 - cyrillic-ext_latin-ext_cyrillic_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto Medium"), local("Roboto-Medium"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-500.woff2") format("woff2"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-500.woff") format("woff"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-500.ttf") format("truetype"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-500.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-500italic - cyrillic-ext_latin-ext_cyrillic_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-500italic.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-500italic.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-500italic.woff2") format("woff2"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-500italic.woff") format("woff"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-500italic.ttf") format("truetype"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-500italic.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-700 - cyrillic-ext_latin-ext_cyrillic_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-700.woff2") format("woff2"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-700.woff") format("woff"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-700.ttf") format("truetype"), url("../fonts/roboto-v19-cyrillic-ext_latin-ext_cyrillic_latin-700.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* line 68, ../sass/font.scss */
+body, .card.custom {
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* line 73, ../sass/font.scss */
+header.header h1 {
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* line 9, ../sass/style.scss */
+.Cc {
+  border: 1px solid red;
+}
+
+/* line 12, ../sass/style.scss */
+header.header {
+  height: 50vh;
+  width: 100%;
+  background-image: url("//cdn2.editmysite.com/images/editor/theme-background/stock/City-New-York-Arial.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-color: transparent;
+  background-size: cover;
+}
+/* line 21, ../sass/style.scss */
+header.header h1 {
+  color: #ffffff;
+  font-size: 5rem;
+}
+
+/* line 27, ../sass/style.scss */
+.opacity5 {
+  opacity: .5;
+}
+
+/* line 33, ../sass/style.scss */
+.btn.custom {
+  height: 60px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2.25px;
+}
+/* line 42, ../sass/style.scss */
+.btn.custom:not(:disabled):not(.disabled):active:focus, .btn.custom:not(:disabled):not(.disabled).active:focus, .btn.custom:focus {
+  outline: none;
+  box-shadow: none;
+}
+/* line 48, ../sass/style.scss */
+.btn.custom.btn-primary {
+  background-color: #3dc9b3;
+}
+/* line 51, ../sass/style.scss */
+.btn.custom.btn-primary:hover {
+  box-shadow: 0 2px 10px 0 #309383;
+}
+
+/* line 55, ../sass/style.scss */
+.card.custom {
+  text-align: center;
+  border: none;
+  overflow: hidden;
+  margin-bottom: 30px;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  line-height: 18px;
+}
+/* line 62, ../sass/style.scss */
+.card.custom .card-header, .card.custom .card-footer {
+  background-color: unset;
+  border: none;
+}
+/* line 66, ../sass/style.scss */
+.card.custom .card-header,
+.card.custom .card-body,
+.card.custom .card-footer {
+  padding: 0;
+}
+/* line 71, ../sass/style.scss */
+.card.custom .card-body {
+  padding: 0 15px;
+  padding-top: 10px;
+}
+/* line 76, ../sass/style.scss */
+.card.custom .card-footer {
+  padding: 0 15px 10px;
+}
